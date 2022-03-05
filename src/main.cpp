@@ -29,7 +29,7 @@ void setup()
   // put your setup code here, to run once:
 
   pinMode(LED_BUILTIN, OUTPUT);
-  pinMode(2, INPUT_PULLUP);
+  pinMode(2, INPUT);
   pinMode(LED_RED, OUTPUT);
   pinMode(LED_GREEN, OUTPUT);
   pinMode(LED_BLUE, OUTPUT);
